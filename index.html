@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,16 +17,31 @@
 
 
 
+
 			<button onclick="sine()">sin </button>
+
+			<button onclick="power_4()">X^4 </button>
+
 		</p>
 		<script type="text/javascrit">
 			function cube() {
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 3);
+
 			}
+
 			function sine() {
 				var num = document.getElementById("n1");
 				num.value = Math.sin(num.value);
+
+			function power_4() {
+				var num = document.getElementById("n2");
+
+				num.value = Math.pow(num.value, 4);
+			}
+
+			
+
 		</script>
 	</body>
 </html>
